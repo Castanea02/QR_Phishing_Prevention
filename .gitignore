@@ -1,0 +1,132 @@
+# General ignores
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/ios/Flutter/App.framework
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/.symlinks/
+**/GeneratedPluginRegistrant.*
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio related
+/android/app/debug
+/android/app/profile
+/android/app/release
+/local.properties
+/android/gradle.properties
+
+# Firebase/Google Services
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Secrets and environment variables
+.env
+.env.local
+.env.*.local
+secrets.json
+
+# Node.js related (root/backend)
+/root/backend/node_modules/
+root/backend/npm-debug.log*
+root/backend/yarn-error.log*
+root/backend.yarn-integrity
+root/backend.pnp.*
+root/backend.pnp.js
+root/backend/.env
+root/backend/.env.local
+root/backend/.env.development.local
+root/backend/.env.test.local
+root/backend/.env.production.local
+
+# Log files
+*.log
+
+# Temporary files and folders
+tmp/
+temp/
+*.tmp
+
+# Generated files (e.g., by code generators)
+*.g.dart
+*.freezed.dart
+
+# macOS generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows generated files
+Thumbs.db
+Desktop.ini
+
+# Linux generated files
+*~
+
+# JetBrains IDEs
+.idea/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*.so
+*.dylib
+*.dll
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm specific
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Flutter related (root)
+flutter_export_environment.sh
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+.flutter/android/java_pid*.hprof
+/backend/node_modules
